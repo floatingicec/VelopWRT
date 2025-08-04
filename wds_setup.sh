@@ -1,15 +1,17 @@
 #!/bin/bash
 
-# Prompt user for input
 echo ""
 echo "Please enter the Parent SSID (e.g., Linksys00000):"
 read ParentSSID
+
 echo ""
 echo "Please enter the Parent SSID pass (e.g., 0hWx3qceu@):"
 read ParentSSIDkey
+
 echo ""
 echo "Please enter the Parent IP address (e.g., 192.168.10.1):"
 read ParentIPaddr
+
 echo ""
 echo "Please enter the Child IP address (e.g., 192.168.10.2):"
 read ChildIPaddr
